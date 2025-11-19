@@ -1,5 +1,11 @@
+import AllRoute from '~/components/AllRoute'
+
 function App() {
-  return <div className='text-3xl font-bold underline'></div>
+  return (
+    <>
+      <AllRoute />
+    </>
+  )
 }
 
 export default App
