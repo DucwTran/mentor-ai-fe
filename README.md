@@ -1,16 +1,47 @@
-# React + Vite
+```bash
+1️⃣ Clone dự án
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git clone https://github.com/DucwTran/mentor-ai-fe.git
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2️⃣ Di chuyển vào thư mục dự án
+cd mentor-ai-fe
 
-## React Compiler
+3️⃣ Cài dependency
+yarn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4️⃣ Chạy dự án ở chế độ development
+yarn dev
+```
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cấu trúc thư mục dự án
+├── public
+│   └── vite.svg
+├── src
+│   ├── Components
+│   ├── apis
+│   ├── assets
+│   │   └── react.svg
+│   ├── customHooks
+│   │   ├── useBoolean.js
+│   │   ├── useDebounce.js
+│   │   └── useThrottle.js
+│   ├── pages
+│   ├── redux
+│   ├── utils
+│   │   └── authorizeAxios.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── yarn.lock
+```
