@@ -14,7 +14,7 @@ yarn
 yarn dev
 ```
 
-
+```plaintext
 Cấu trúc thư mục dự án
 ├── public
 │   └── vite.svg
