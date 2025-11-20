@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-import Header from '~/components/Header'
+import Header from '~/components/header'
 import MainContentHome from '~/pages/home/MainContentHome'
 
 const Home = () => {
