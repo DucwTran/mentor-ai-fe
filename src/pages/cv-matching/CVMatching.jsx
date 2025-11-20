@@ -1,4 +1,4 @@
-import Header from '~/components/Header'
+import Header from '~/components/header'
 import MainContentCVMatching from '~/pages/cv-matching/MainContentCVMatching'
 
 const CVMatching = () => {
