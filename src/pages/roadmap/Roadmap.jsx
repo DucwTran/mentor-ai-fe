@@ -1,5 +1,5 @@
-import Header from '~/components/header'
-import MainContentRoadmap from '~/pages/roadmap/MainContentRoadmap'
+import Header from '~/components/Header'
+import MainContentRoadmap from '~/pages/Roadmap/MainContentRoadmap'
 
 const Roadmap = () => {
   return (

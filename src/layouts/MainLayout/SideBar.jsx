@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 const SIDEBAR_ITEMS = [
-  { name: 'HOME', icon: Home, color: '#6E5f14', href: '' },
+  { name: 'HOME', icon: Home, color: '#6E5f14', href: 'home' },
   { name: 'ROADMAP', icon: BarChart2, color: '#6366f1', href: 'roadmap' },
   { name: 'CV MATCHING', icon: ShoppingBag, color: '#8B5CF6', href: 'cv-matching' },
   { name: 'CHATBOX', icon: Users, color: '#EC4899', href: 'chatbox' },

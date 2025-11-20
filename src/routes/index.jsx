@@ -1,34 +1,57 @@
+import PrivateRoutes from '~/components/PrivateRoutes'
 import MainLayout from '~/layouts/MainLayout'
-import Chat from '~/pages/chat'
-import CVMatching from '~/pages/cv-matching'
-import Home from '~/pages/home'
-import Roadmap from '~/pages/roadmap'
-import Setting from '~/pages/setting'
+import RegisterLayout from '~/layouts/RegisterLayout'
+import Chat from '~/pages/Chat'
+import CVMatching from '~/pages/Cv-matching'
+import Home from '~/pages/Home'
+import Login from '~/pages/Login/Login'
+import Register from '~/pages/Regsiter'
+import Roadmap from '~/pages/Roadmap'
+import Setting from '~/pages/Setting'
 
 export const Routes = [
   {
     path: '/',
-    element: <MainLayout />,
+    element: <RegisterLayout />,
     children: [
       {
-        index: true,
-        element: <Home />
+        path: '/login',
+        element: <Login />
       },
       {
-        path: 'roadmap',
-        element: <Roadmap />
-      },
+        path: '/register',
+        element: <Register />
+      }
+    ]
+  },
+  {
+    element: <PrivateRoutes />,
+    children: [
       {
-        path: 'cv-matching',
-        element: <CVMatching />
-      },
-      {
-        path: 'chatbox',
-        element: <Chat />
-      },
-      {
-        path: 'setting',
-        element: <Setting />
+        path: '/user',
+        element: <MainLayout />,
+        children: [
+          {
+            path: 'home',
+            element: <Home />
+          },
+          {
+            path: 'roadmap',
+            element: <Roadmap />
+          },
+          {
+            path: 'cv-matching',
+            element: <CVMatching />
+          },
+          {
+            path: 'chatbox',
+            element: <Chat />
+          },
+          {
+            path: 'setting',
+            element: <Setting />
+          }
+        ]
       }
     ]
   }

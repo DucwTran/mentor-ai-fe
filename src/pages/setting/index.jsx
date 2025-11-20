@@ -1,3 +1,3 @@
-import Setting from '~/pages/setting/Setting'
+import Setting from '~/pages/Setting/Setting'
 
 export default Setting

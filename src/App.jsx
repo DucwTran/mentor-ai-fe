@@ -1,4 +1,4 @@
-import AllRoute from '~/components/allRoute'
+import AllRoute from '~/components/AllRoute'
 
 function App() {
   return (

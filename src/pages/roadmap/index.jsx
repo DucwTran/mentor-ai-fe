@@ -1,3 +1,3 @@
-import Roadmap from '~/pages/roadmap/Roadmap'
+import Roadmap from '~/pages/Roadmap/Roadmap'
 
 export default Roadmap

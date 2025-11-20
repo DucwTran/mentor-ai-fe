@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-import LogoutAccount from '~/pages/setting/logoutAccount'
+import LogoutAccount from '~/pages/Setting/logoutAccount'
 
 function MainContentSetting() {
   return (

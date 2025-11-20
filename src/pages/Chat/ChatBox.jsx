@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Stack } from '@mui/material'
-import Message from '~/components/chats/Message'
+import Message from '~/components/Chats/Message'
 
 function ChatBox() {
   const chatContainerRef = useRef(null)

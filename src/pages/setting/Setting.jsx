@@ -1,5 +1,5 @@
-import Header from '~/components/header'
-import MainContentSetting from '~/pages/setting/MainContentSetting'
+import Header from '~/components/Header'
+import MainContentSetting from '~/pages/Setting/MainContentSetting'
 
 const Setting = () => {
   return (

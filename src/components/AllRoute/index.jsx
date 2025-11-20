@@ -1,3 +1,3 @@
-import AllRoute from '~/components/allRoute/AllRoute'
+import AllRoute from '~/components/AllRoute/AllRoute'
 
 export default AllRoute

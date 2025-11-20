@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-import RoadmapForm from '~/components/roadmap/RoadmapForm'
-import RoadmapPipeline from '~/components/roadmap/RoadmapPipeline'
+import RoadmapForm from '~/components/Roadmap/RoadmapForm'
+import RoadmapPipeline from '~/components/Roadmap/RoadmapPipeline'
 
 function MainContentRoadmap() {
   return (

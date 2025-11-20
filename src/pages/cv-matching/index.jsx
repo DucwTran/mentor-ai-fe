@@ -1,3 +1,3 @@
-import CVMatching from '~/pages/cv-matching/CVMatching'
+import CVMatching from '~/pages/Cv-matching/CVMatching'
 
 export default CVMatching

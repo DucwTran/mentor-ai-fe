@@ -1,5 +1,5 @@
 import { Stack } from '@mui/material'
-import UserChat from '~/components/chats/UserChat'
+import UserChat from '~/components/Chats/UserChat'
 
 function ListChat() {
   return (

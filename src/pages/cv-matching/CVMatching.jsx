@@ -1,5 +1,5 @@
-import Header from '~/components/header'
-import MainContentCVMatching from '~/pages/cv-matching/MainContentCVMatching'
+import Header from '~/components/Header'
+import MainContentCVMatching from '~/pages/Cv-matching/MainContentCVMatching'
 
 const CVMatching = () => {
   return (
