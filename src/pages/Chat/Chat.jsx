@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import Header from '~/components/Header'
-import ChatBox from '~/pages/Chat/ChatBox'
+import ChatBox from '~/pages/chat/ChatBox'
 import { Container, Stack } from '@mui/material'
 import React from 'react'
-import ListChat from '~/pages/Chat/ListChat'
+import ListChat from '~/pages/chat/ListChat'
 
 const Chat = () => {
   return (

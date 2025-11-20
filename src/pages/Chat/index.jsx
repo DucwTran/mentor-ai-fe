@@ -1,3 +1,3 @@
-import Chat from '~/pages/Chat/Chat'
+import Chat from '~/pages/chat/Chat'
 
 export default Chat

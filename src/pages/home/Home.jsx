@@ -1,4 +1,3 @@
-import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import Header from '~/components/Header'
