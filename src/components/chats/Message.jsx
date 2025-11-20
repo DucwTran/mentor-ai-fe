@@ -9,7 +9,7 @@ function Message({ isMine, content }) {
     <Stack
       className={`${
         isMine
-          ? 'bg-[#00bd9b] text-white p-3 rounded-lg max-w-[50%] self-end' // Tin nhắn của mình
+          ? 'bg-[#1565C0] text-white p-3 rounded-lg max-w-[50%] self-end' // Tin nhắn của mình
           : 'bg-[#e2e2e2] text-black p-3 rounded-lg max-w-[50%] self-start' // Tin nhắn của người khác
       }`}
       ref={scroll}

@@ -13,7 +13,7 @@ function ChatBox() {
 
   return (
     <Stack gap={4} className='h-[70vh] overflow-y-auto bg-[#f7f7f7] rounded-xl w-[950px]'>
-      <Stack gap={3} className='max-h-[70vh] overflow-y-auto px-8 py-5' ref={chatContainerRef}>
+      <Stack gap={3} className='max-h-[70vh] overflow-y-auto px-8 py-5 h-full' ref={chatContainerRef}>
         <Message isMine={true} content={'ff'} />
         <Message isMine={false} content={'s'} />
         <Message isMine={true} content={'sdf'} />
@@ -23,6 +23,7 @@ function ChatBox() {
         <Message isMine={false} content={'sdf'} />
         <Message isMine={false} content={'df'} />
         <Message isMine={true} content={'ád'} />
+        {/* <div className='text-gray-600 mt-20 text-3xl'>Start Chat</div> */}
       </Stack>
       <Stack direction='horizontal' gap={3} className='chat-input grow-0'>
         <input
