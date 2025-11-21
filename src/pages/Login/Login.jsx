@@ -1,6 +1,8 @@
 import { useForm } from 'react-hook-form'
+import { useDispatch } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import Input from '~/components/Login/Input'
+import { loginUser } from '~/redux/userSlice'
 
 const user = {
   email: 'trancongduc@gmail.com',
@@ -17,9 +19,11 @@ export default function Login() {
   } = useForm()
 
   const navigate = useNavigate()
+  const dispatch = useDispatch()
   const onSubmit = handleSubmit((data) => {
     if (data.email === user.email && data.password === user.password) {
       localStorage.setItem('user', JSON.stringify(user))
+      dispatch(loginUser(user))
       navigate('/user/home')
     } else {
       if (data.email !== user.email || data.password !== user.password) {
@@ -36,7 +40,7 @@ export default function Login() {
   })
 
   return (
-    <div className='bg-primary'>
+    <div className='bg-primary mr-120'>
       <div className='max-w-7xl mx-auto px-4'>
         <div className='grid grid-cols-1 lg:grid-cols-5 lg:py-12 lg:pr-10'>
           <div className='lg:col-span-2 lg:col-start-4'>
